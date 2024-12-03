@@ -1,0 +1,19 @@
+require redis server installed previously
+
+create a .env.dev file and add variables same as in .env.example
+
+1. npm i
+2. npm run start
+
+run this in new terminal
+1. cd microservices/email_server
+2. npm i
+3. node server
+
+
+
+make a request to /email
+body {
+    "email":"some-email",
+    "template":"format-1"                  //because only format-1 is working correctly
+}
